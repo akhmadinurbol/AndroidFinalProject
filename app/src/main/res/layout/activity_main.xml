@@ -92,7 +92,7 @@
         android:id="@+id/register"
         android:layout_width="61dp"
         android:layout_height="19dp"
-        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp"
         android:text="Register"
         android:textAlignment="center"
         android:textSize="16sp"

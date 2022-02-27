@@ -2735,6 +2735,7 @@ id east
 id edit_query
 id elastic
 id email
+id emailMain
 id end
 id endToStart
 id enterAlways
@@ -2890,6 +2891,7 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id password
+id passwordMain
 id password_toggle
 id path
 id pathRelative
@@ -2899,6 +2901,7 @@ id pin
 id position
 id postLayout
 id progressBar
+id progressBarMain
 id progress_circular
 id progress_horizontal
 id radio

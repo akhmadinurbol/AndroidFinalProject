@@ -1,3 +1,6 @@
+com.example.finalproject:id/progressBarMain = 0x7f0801f3
+com.example.finalproject:id/passwordMain = 0x7f0801f2
+com.example.finalproject:id/emailMain = 0x7f0801f1
 com.example.finalproject:drawable/abc_menu_hardkey_panel_mtrl_mult = 0x7f070037
 com.example.finalproject:styleable/AlertDialog = 0x7f110006
 com.example.finalproject:style/Widget.Compat.NotificationActionText = 0x7f1002ea

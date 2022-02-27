@@ -12,11 +12,14 @@ drawable ic_launcher_foreground
 id age
 id banner
 id email
+id emailMain
 id forgotPassword
 id fullName
 id login
 id password
+id passwordMain
 id progressBar
+id progressBarMain
 id register
 id registerUser
 layout activity_main

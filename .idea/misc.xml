@@ -3,12 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Projects/IITrimester/AndroidApp/AndroidFinalProject/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
-        <entry key="..\:/Projects/IITrimester/AndroidApp/AndroidFinalProject/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
-        <entry key="..\:/Projects/IITrimester/AndroidApp/AndroidFinalProject/app/src/main/res/layout/activity_register_user.xml" value="0.1" />
+        <entry key="..\:/Users/admin/Desktop/Mobile Develolpment 1 (Android)/GIthub/AndroidFinalProject/app/src/main/res/layout/activity_forgot.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/admin/Desktop/Mobile Develolpment 1 (Android)/GIthub/AndroidFinalProject/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/admin/Desktop/Mobile Develolpment 1 (Android)/GIthub/AndroidFinalProject/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/admin/Desktop/Mobile Develolpment 1 (Android)/GIthub/AndroidFinalProject/app/src/main/res/layout/activity_register_user.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/admin/Desktop/Mobile Develolpment 1 (Android)/GIthub/AndroidFinalProject/app/src/main/res/layout/activity_register_user.xml" value="0.2" />
       </map>
     </option>
   </component>

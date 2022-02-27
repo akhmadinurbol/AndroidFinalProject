@@ -1,24 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ProfileActivity">
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
 
     <TextView
-        android:id="@+id/banner"
+        android:id="@+id/fullNameProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:text="@string/fullName"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/emptyFullNameProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/fullNameProfile"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/emailProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/fullNameProfile"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:text="@string/email"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/emptyEmailProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/emailProfile"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/cityProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/emailProfile"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:text="@string/cityProfile"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/emptyCityProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_toEndOf="@+id/emailProfile"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:fontFamily="sans-serif-black"
-        android:text="LuckViL"
+        android:layout_below="@+id/cityProfile"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:text="@string/logo"
         android:textAlignment="center"
-        android:textSize="60sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="@color/textColor"
+        android:textSize="30sp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:hint="@string/hint_user_field"
+        android:textColorHint="@color/textColorHint" />
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_field"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:text="@string/main_btn" />
+
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_btn"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:textAlignment="center"
+        android:textColor="@color/textColorHint"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result_info"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Logout"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

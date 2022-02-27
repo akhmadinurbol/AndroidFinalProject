@@ -22,6 +22,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.FinalProject" >
         <activity
+            android:name="com.example.finalproject.ForgotPassword"
+            android:exported="false" />
+        <activity
             android:name="com.example.finalproject.ProfileActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
@@ -38,6 +41,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"

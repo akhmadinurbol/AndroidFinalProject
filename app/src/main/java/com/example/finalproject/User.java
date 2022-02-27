@@ -1,15 +1,15 @@
 package com.example.finalproject;
 
 public class User {
-    public String fullName, age, email;
+    public String fullName, city, email;
 
     public User() {
 
     }
 
-    public User(String fullName, String age, String email) {
+    public User(String fullName, String city, String email) {
         this.fullName = fullName;
-        this.age = age;
+        this.city = city;
         this.email = email;
     }
 }

@@ -23,10 +23,12 @@
         android:theme="@style/Theme.FinalProject" >
         <activity
             android:name="com.example.finalproject.ProfileActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name="com.example.finalproject.RegisterUser"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name="com.example.finalproject.MainActivity"
             android:exported="true" >

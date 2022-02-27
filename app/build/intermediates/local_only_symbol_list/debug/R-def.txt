@@ -11,6 +11,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 id age
 id banner
+id bannerDescription
 id email
 id emailMain
 id forgotPassword

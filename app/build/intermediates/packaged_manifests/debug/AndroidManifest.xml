@@ -22,6 +22,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.FinalProject" >
         <activity
+            android:name="com.example.finalproject.ProfileActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.finalproject.RegisterUser"
             android:exported="false" />
         <activity

@@ -1,4 +1,4 @@
-#Sun Feb 27 18:14:42 ALMT 2022
+#Sun Feb 27 22:12:01 ALMT 2022
 base.2=C\:\\Users\\admin\\Desktop\\Mobile Develolpment 1 (Android)\\GIthub\\AndroidFinalProject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
 path.2=12/classes.dex
 base.1=C\:\\Users\\admin\\Desktop\\Mobile Develolpment 1 (Android)\\GIthub\\AndroidFinalProject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

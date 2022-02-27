@@ -15,7 +15,7 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCX_TemOB6tq5WeYGFcenkR20nEJCC12d8</string>
     <string name="google_storage_bucket" translatable="false">android-final-project-a2167.appspot.com</string>
     <string name="project_id" translatable="false">android-final-project-a2167</string>
-    <style name="Theme.FinalProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.FinalProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

@@ -2640,6 +2640,7 @@ int id autoComplete 0x7f080057
 int id autoCompleteToEnd 0x7f080058
 int id autoCompleteToStart 0x7f080059
 int id banner 0x7f08005a
+int id bannerDescription 0x7f0801f1
 int id barrier 0x7f08005b
 int id baseline 0x7f08005c
 int id beginOnFirstDraw 0x7f08005d
